@@ -1,0 +1,48 @@
+{
+  "project_info": {
+    "project_number": "692273116086",
+    "firebase_url": "https://demotask-ed1c2.firebaseio.com",
+    "project_id": "demotask-ed1c2",
+    "storage_bucket": "demotask-ed1c2.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:692273116086:android:fbe5180b52ac3cd6be4717",
+        "android_client_info": {
+          "package_name": "com.example.demotask"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "692273116086-vkl16vmlba4cs4k91j0ug1vs6bmd2h8m.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.example.demotask",
+            "certificate_hash": "aabbb73d6f30d1ded1821ebfa80e84ed3206eaaa"
+          }
+        },
+        {
+          "client_id": "692273116086-pfbjqoffuedgg45gthulgnjjqfb8tn1n.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB7bWTvAGsBR-hSkGUUwEF5MiDORBAsv70"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "692273116086-pfbjqoffuedgg45gthulgnjjqfb8tn1n.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

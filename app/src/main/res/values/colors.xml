@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3498db</color>
+    <color name="colorPrimaryDark">#3498db</color>
+    <color name="colorAccent">#D81B60</color>
+
+   <color name="facebook">#3b5998</color>
+    <color name="pink">#ff6363</color>
+
+    <color name="fbutton_color_green_sea">#16a085</color>
+    <color name="fbutton_color_midnight_blue">#2c3e50</color>
+    <color name="fbutton_color_peter_river">#3498db</color>
+
+    <color name="lightgray">#ededed</color>
+
+    <color name="blackTextColor">#000</color>
+
+    <color name="material_green_50">#fff</color>
+    <color name="material_green_500">#3498db</color>
+    <color name="material_green_700">#3498db</color>
+    <color name="material_green_a200">#3498db</color>
+    <color name="material_lime_a700">#3498db</color>
+    <color name="material_purple_a700">#3498db</color>
+</resources>

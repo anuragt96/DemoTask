@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:fbutton="http://schemas.android.com/apk/res-auto"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="20dp"
+    android:background="#fff"
+    tools:context=".MainActivity">
+
+<!--    <TextView-->
+<!--        android:layout_width="wrap_content"-->
+<!--        android:layout_height="wrap_content"-->
+<!--        android:fontFamily="@font/alex_brush"-->
+<!--        android:text="Demo"-->
+<!--        android:textSize="25sp"-->
+<!--        fbutton:layout_constraintBottom_toBottomOf="parent"-->
+<!--        fbutton:layout_constraintEnd_toEndOf="parent"-->
+<!--        fbutton:layout_constraintHorizontal_bias="0.46"-->
+<!--        fbutton:layout_constraintStart_toStartOf="parent"-->
+<!--        fbutton:layout_constraintTop_toTopOf="parent"-->
+<!--        fbutton:layout_constraintVertical_bias="0.034" />-->
+
+</androidx.constraintlayout.widget.ConstraintLayout>

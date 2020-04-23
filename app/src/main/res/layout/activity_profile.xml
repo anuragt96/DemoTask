@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fitsSystemWindows="true"
+    tools:context=".Profile">
+
+
+        <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="300dp"
+            android:background="@color/colorPrimaryDark"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginTop="240dp"
+        android:layout_marginStart="15dp"
+        android:text="Account Info"
+        android:textColor="#fff"
+        android:textSize="25sp"
+        android:textStyle="bold">
+
+    </TextView>
+
+    <View
+            android:layout_alignParentTop="true"
+            android:layout_width="match_parent"
+            android:layout_height="10dp"
+            android:background="@color/colorPrimaryDark"/>
+
+
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="340dp"
+        android:paddingEnd="30dp"
+        app:cardElevation="7dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:text="Name"
+            android:textSize="20sp"
+            android:textColor="@color/blackTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="16dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_name"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="50dp"
+            android:hint="Name will be shown here"
+            android:paddingLeft="36dp"
+            android:textColor="@color/blackTextColor"
+            android:textSize="20sp">
+
+        </TextView>
+
+    </androidx.cardview.widget.CardView>
+
+
+    <!--email cardview-->
+    <androidx.cardview.widget.CardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="450dp"
+        android:paddingEnd="30dp"
+        app:cardElevation="7dp"
+        android:layout_marginStart="15dp"
+        android:layout_marginEnd="15dp"
+        app:cardCornerRadius="8dp">
+
+        <TextView
+            android:text="E-mail"
+            android:textSize="20sp"
+            android:textColor="@color/blackTextColor"
+            android:layout_width="match_parent"
+            android:layout_height="30dp"
+            android:paddingLeft="16dp"
+            android:layout_marginTop="20dp">
+        </TextView>
+
+        <TextView
+            android:id="@+id/user_email"
+            android:layout_width="match_parent"
+            android:layout_height="48dp"
+            android:layout_marginLeft="20sp"
+            android:layout_marginTop="50dp"
+            android:hint="E-mail will be shown here"
+            android:paddingLeft="36dp"
+            android:textColor="@color/blackTextColor"
+            android:textSize="20sp"
+            >
+
+        </TextView>
+    </androidx.cardview.widget.CardView>
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="200dp"
+        android:layout_height="200dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginStart="109dp"
+        app:srcCompat="@drawable/ppp" />
+</RelativeLayout>
